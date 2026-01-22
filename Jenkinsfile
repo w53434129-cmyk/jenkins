@@ -37,8 +37,8 @@ pipeline {
         stage('Deploy Frontend') {
             steps {
                 sh '''
-                  sudo rm -rf ${FRONTEND_DIR}/*
-                  sudo cp -r frontend/* ${FRONTEND_DIR}/
+                sudo rm -rf /usr/share/nginx/html/*
+                sudo cp frontend/index.html frontend/app.js /usr/share/nginx/html/
                 '''
             }
         }
