@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevOps Demo App</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f4f6f8;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      width: 400px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    button {
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    p {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>DevOps CI/CD Demo</h2>
+    <button onclick="checkBackend()">Check Backend</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
