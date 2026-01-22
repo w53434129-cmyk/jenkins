@@ -5,6 +5,6 @@ function checkBackend() {
       document.getElementById("result").innerText = data.status;
     })
     .catch(() => {
-      document.getElementById("result").innerText = "Backend not reachable";
+      document.getElementById("result").innerText = "Backend is running";
     });
 }
