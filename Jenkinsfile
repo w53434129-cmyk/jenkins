@@ -10,7 +10,7 @@ pipeline {
     }
 
     environment {
-        FRONTEND_DIR = '/var/www/html'
+        FRONTEND_DIR = '/usr/share/nginx/html'
         BACKEND_PORT = '3000'
     }
 
